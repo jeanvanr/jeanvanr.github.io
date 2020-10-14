@@ -244,8 +244,6 @@ In C the array name refers to the first byte of the array in the memory.
 When we pass the name of an array to a function, the address of the zeroth element of the array is copied to the local pointer variable in the function. An array name is often known to be a constant pointer.
 
 > In case of one-dimensional arrays, we have discussed that if the array is completely initialized, we may omit the size of the array. The same concept can be applied to a two-dimensional array, except that only the size of the first dimension can be omitted.
->
-> `int marks[][3]={{90,87,78},{68, 62, 71}};`
 
 ### Passing 2D arrays to functions
 
